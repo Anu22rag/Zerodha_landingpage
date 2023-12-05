@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerodha-Online stock trading app</title>
+    <style>
+        .container1 {
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            margin: 0px;
+            height: 50px;
+            box-shadow: 2px 1px 2px #eee;
+            border: solid white;
+        }
+
+        .container2 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0px;
+            padding: 80px;px;
+            padding-bottom: 40px;
+        }
+
+        .landing {
+            width: 850px;
+        }
+
+        .logo {
+            width: 170;
+            padding: 16px;
+            margin-left: 150px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            color: gray;
+            font-size: 18px;
+            padding: 20px;
+            margin-right: 150px;
+            cursor: pointer;
+
+            /* Add margin between the logo and the navigation */
+        }
+        .nav div:hover{
+            color: #387ed1;
+        }
+
+        .nav div {
+            margin-right: 15px;
+            /* Add margin between the navigation items */
+        }
+
+        .container3 {
+            font-family: sans-serif;
+            margin: 0px;
+            text-align: center;
+            padding: 5px ;
+        }
+
+        .container3 h1 {
+            font-size: 50px;
+            font-weight: 520;
+            color: #424242;
+        }
+
+        .container3 p {
+            font-size: 20px;
+            color: gray;
+        }
+
+        .button {
+            margin-top: 30px;
+        }
+
+        .btn {
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 10px 30px;
+            background-color: #387ed1;
+            color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0) !important;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: #0a0a0a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container1">
+        <img src="logo.svg" class="logo" alt="logo">
+
+        <div class="nav">
+            <div>Signup</div>
+            <div>About</div>
+            <div>Products</div>
+            <div>Pricing</div>
+            <div>Support</div>
+        </div>
+    </div>
+    <div class="container2">
+        <img src="landing.png" class="landing" alt="landing page">
+    </div>
+    <div class="container3">
+        <h1>Invest in everything</h1>
+        <p>Online platform to invest in stocks, derivatives, mutual funds, and more</p>
+        <div class="button">
+            <button class="btn">Sign up now</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
